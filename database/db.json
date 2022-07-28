@@ -1,0 +1,1313 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server 2",
+      "author": "typicode 2"
+    },
+    {
+      "id": 3,
+      "title": "json-server 3",
+      "author": "typicode 3"
+    }
+  ],
+  "dashsignup": [
+    {
+      "fullname": "Samandar Amiri",
+      "email": "samandar@gmail.com",
+      "password": "123456",
+      "mobile": 7986273449,
+      "id": 2
+    }
+  ],
+  "forget": [
+    {
+      "comment": "Samandar Amiri",
+      "email": "samandar@gmail.com",
+      "id": 1
+    },
+    {
+      "comment": "password in not working",
+      "email": "samandar1@gmail.com",
+      "id": 3
+    },
+    {
+      "comment": "password in not working",
+      "email": "samandar@djfd.cpm",
+      "id": 4
+    },
+    {
+      "comment": "password in not working",
+      "email": "samandar@gmail.cpm",
+      "id": 5
+    },
+    {
+      "comment": "password in not working",
+      "email": "ahmad@gmail.com",
+      "id": 6
+    },
+    {
+      "comment": "forgottem password",
+      "email": "murtaza@gmail.com",
+      "id": 7
+    },
+    {
+      "comment": "password forgetten",
+      "email": "aimal@gmail.com",
+      "id": 8
+    },
+    {
+      "comment": "password in not working",
+      "email": "samandar@gmail.cpm",
+      "id": 9
+    }
+  ],
+  "signup": [
+    {
+      "fullname": "aimal",
+      "email": "aimal@gmail.com",
+      "password": "55555",
+      "mobile": "4578854545",
+      "id": 7
+    },
+    {
+      "fullname": "samandar amiri",
+      "email": "samandar@gmail.com",
+      "password": "00000",
+      "mobile": "4567898524",
+      "id": 8
+    },
+    {
+      "fullname": "murtazaahmad",
+      "email": "murtaza@gmail.com",
+      "password": "123456",
+      "mobile": "4567891235",
+      "id": 10
+    },
+    {
+      "fullname": "ghafar",
+      "email": "ghafar@gmail.com",
+      "password": "4567898",
+      "mobile": "4567895214",
+      "id": 11
+    },
+    {
+      "fullname": "aimal",
+      "email": "aimal@gmail.com",
+      "password": "123456",
+      "mobile": "7894561238",
+      "id": 12
+    },
+    {
+      "fullname": "ghafar",
+      "email": "ghafar@gmail.com",
+      "password": "123456",
+      "mobile": "7894586123",
+      "id": 13
+    }
+  ],
+  "contect": [
+    {
+      "fullname": "samadnar",
+      "email": "sam@gmail.com",
+      "country": "Afganistan",
+      "detail": "new products\n"
+    },
+    {
+      "fullname": "sam",
+      "email": "sam@gmail.com",
+      "country": "Afganistan",
+      "detail": "loved products",
+      "id": 2
+    },
+    {
+      "fullname": "sana",
+      "email": "sam@gmail.com",
+      "country": "Afganistan",
+      "detail": "food products",
+      "id": 3
+    },
+    {
+      "fullname": "samandar",
+      "email": "samandar@djfd.cpm",
+      "country": "Afganistan",
+      "detail": "nice",
+      "id": 4
+    },
+    {
+      "fullname": "Murtaza",
+      "email": "murtazaalisunan77@gmail.com",
+      "country": "Australia",
+      "detail": "cool products",
+      "id": 7
+    }
+  ],
+  "paymentCOD": [
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "12",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7986273449,
+      "email": "samandar1@gmail.com",
+      "total": 5000,
+      "product": "undefinedBerry VelvetBalochi dress",
+      "check": true,
+      "id": 9
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "45",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 24000,
+      "phone": 4567898521,
+      "email": "sam@gmail.com",
+      "total": 8500,
+      "product": "Special Super Negin Saffron",
+      "check": true,
+      "id": 12
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "Amiri",
+      "apartment": "dfdf",
+      "town": "KABUL",
+      "district": "Badakhshan",
+      "postcode": 2400,
+      "phone": 1234567896,
+      "email": "sam@gmail.com",
+      "total": 3600,
+      "product": "Hazara dress",
+      "check": true,
+      "id": 13
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "ccc",
+      "town": "sfdgdsfg",
+      "district": "Herat",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "total": 12500,
+      "product": "undefinedKuchi dressSpecial Super Negin SaffronKuchi dress",
+      "check": true,
+      "id": 20
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "PLOT",
+      "town": "KABUL",
+      "district": "Badakhshan",
+      "postcode": 2400,
+      "phone": 4567898524,
+      "email": "samandar@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 21
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "PLOT",
+      "town": "KABUL",
+      "district": "Badakhshan",
+      "postcode": 2400,
+      "phone": 4567898524,
+      "email": "samandar@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 22
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "89",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7986273449,
+      "email": "samandar@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 23
+    },
+    {
+      "firstname": "aimal",
+      "lastname": "amiri",
+      "apartment": "plot45",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7894561235,
+      "email": "samandaramiri123@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 24
+    },
+    {
+      "firstname": "aimal",
+      "lastname": "amiri",
+      "apartment": "plot45",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7894561235,
+      "email": "samandaramiri123@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 25
+    },
+    {
+      "firstname": "Samandar",
+      "lastname": "amiri",
+      "apartment": "jjjk",
+      "town": "Volgograd",
+      "district": "Bamyan",
+      "postcode": 400000,
+      "phone": 8902095790,
+      "email": "samandaramiri123@gmail.com",
+      "total": null,
+      "product": null,
+      "check": true,
+      "id": 26
+    },
+    {
+      "firstname": "hamid",
+      "lastname": "aminzai",
+      "apartment": "house 43",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7894561238,
+      "email": "hamid@gmail.com",
+      "total": 4500,
+      "product": "undefinedMesh Velvet",
+      "check": true,
+      "id": 27
+    },
+    {
+      "firstname": "Samandar",
+      "lastname": "amiri",
+      "apartment": "house 43",
+      "town": "Volgograd",
+      "district": "Kandahar",
+      "postcode": 400000,
+      "phone": 8902095790,
+      "email": "samandaramiri123@gmail.com",
+      "total": 6500,
+      "product": "undefinedAfghani FiraqAfghan Saffron",
+      "check": true,
+      "id": 28
+    }
+  ],
+  "paymentStipe": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "firstname": "sam",
+      "lastname": "amiri",
+      "apartment": "plot390",
+      "town": "Phagwara",
+      "district": "January",
+      "postcode": 24000,
+      "phone": "9700203040",
+      "email": "sam2@djds",
+      "id": 2
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "dfgdg",
+      "town": "sfdgdsfg",
+      "district": "February",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "product": "",
+      "total": "",
+      "check": "",
+      "id": 3
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "dfgdg",
+      "town": "sfdgdsfg",
+      "district": "February",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "product": "",
+      "total": "",
+      "check": "",
+      "id": 4
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "rtyrt",
+      "town": "sfdgdsfg",
+      "district": "",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "product": "",
+      "total": "",
+      "check": "",
+      "id": 5
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "rtyrt",
+      "town": "sfdgdsfg",
+      "district": "",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "product": "",
+      "total": "",
+      "check": "",
+      "id": 6
+    },
+    {
+      "firstname": "dfgdfg",
+      "lastname": "sdfgdfg",
+      "apartment": "sdfg",
+      "town": "sfdgdsfg",
+      "district": "April",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "product": "",
+      "total": "",
+      "check": "",
+      "id": 7
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "12",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7986273449,
+      "email": "samandar1@gmail.com",
+      "total": 5000,
+      "product": "undefinedBerry VelvetBalochi dress",
+      "check": true,
+      "id": 8
+    },
+    {
+      "firstname": "anmir",
+      "lastname": "samandar",
+      "apartment": "PLOT",
+      "town": "kabul",
+      "district": "Daikundi",
+      "postcode": 2400,
+      "phone": 1234567896,
+      "email": "samandar1@gmail.com",
+      "total": 8500,
+      "product": "undefinedKuchi dressSpecial Super Negin Saffron",
+      "check": true,
+      "id": 9
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "45",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 24000,
+      "phone": 4567898521,
+      "email": "sam@gmail.com",
+      "total": 8500,
+      "product": "Special Super Negin Saffron",
+      "check": true,
+      "id": 10
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "Amiri",
+      "apartment": "dfdf",
+      "town": "KABUL",
+      "district": "Badakhshan",
+      "postcode": 2400,
+      "phone": 1234567896,
+      "email": "sam@gmail.com",
+      "total": 3600,
+      "product": "Hazara dress",
+      "check": true,
+      "id": 11
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "dddd",
+      "town": "sfdgdsfg",
+      "district": "Jalalabad",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "total": 6000,
+      "product": "function empty(scheduler) {\n    return scheduler ? emptyScheduled(scheduler) : EMPTY;\n}Berry VelvetHazara dress",
+      "check": true,
+      "id": 12
+    },
+    {
+      "firstname": "sam",
+      "lastname": "amiri",
+      "apartment": "475",
+      "town": "mazar",
+      "district": "Wardak",
+      "postcode": 4255,
+      "phone": 1234567898,
+      "email": "sam@gmail.com",
+      "total": 7500,
+      "product": {
+        "source": {}
+      },
+      "check": true,
+      "id": 13
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "wwww",
+      "town": "sfdgdsfg",
+      "district": "Fara",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "total": 9500,
+      "product": {
+        "source": {}
+      },
+      "check": true,
+      "id": 14
+    },
+    {
+      "firstname": "dfghfd",
+      "lastname": "dsfgdfsgds",
+      "apartment": "ccc",
+      "town": "sfdgdsfg",
+      "district": "Herat",
+      "postcode": 56465,
+      "phone": 1234567895,
+      "email": "dsfgsd@gdfgd",
+      "total": 12500,
+      "product": "undefinedKuchi dressSpecial Super Negin SaffronKuchi dress",
+      "check": true,
+      "id": 15
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "PLOT",
+      "town": "KABUL",
+      "district": "Badakhshan",
+      "postcode": 2400,
+      "phone": 4567898524,
+      "email": "samandar@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 16
+    },
+    {
+      "firstname": "samandar",
+      "lastname": "amiri",
+      "apartment": "89",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7986273449,
+      "email": "samandar@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 17
+    },
+    {
+      "firstname": "aimal",
+      "lastname": "amiri",
+      "apartment": "plot45",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7894561235,
+      "email": "samandaramiri123@gmail.com",
+      "total": 4000,
+      "product": "undefinedKuchi dress",
+      "check": true,
+      "id": 18
+    },
+    {
+      "firstname": "Samandar",
+      "lastname": "amiri",
+      "apartment": "jjjk",
+      "town": "Volgograd",
+      "district": "Bamyan",
+      "postcode": 400000,
+      "phone": 8902095790,
+      "email": "samandaramiri123@gmail.com",
+      "total": null,
+      "product": null,
+      "check": true,
+      "id": 19
+    },
+    {
+      "firstname": "hamid",
+      "lastname": "aminzai",
+      "apartment": "house 43",
+      "town": "kabul",
+      "district": "Kabul",
+      "postcode": 2400,
+      "phone": 7894561238,
+      "email": "hamid@gmail.com",
+      "total": 4500,
+      "product": "undefinedMesh Velvet",
+      "check": true,
+      "id": 20
+    },
+    {
+      "firstname": "Samandar",
+      "lastname": "amiri",
+      "apartment": "house 43",
+      "town": "Volgograd",
+      "district": "Kandahar",
+      "postcode": 400000,
+      "phone": 8902095790,
+      "email": "samandaramiri123@gmail.com",
+      "total": 6500,
+      "product": "undefinedAfghani FiraqAfghan Saffron",
+      "check": true,
+      "id": 21
+    }
+  ],
+  "newproduct": [
+    {
+      "id": 1,
+      "title": "Afghani Firaq",
+      "price": "2500",
+      "description": "Afghani Firaq is afghan Traditional clothes having long skirt worn by women in special events like Eid, wedding ceremonies, and other functions.",
+      "category": "women`s collection",
+      "image": "https://seengar.com/wp-content/uploads/2018/11/Afghan-Kuchi-Purple-Vintage-Dress.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Afghani Frock ",
+      "price": "4000",
+      "description": "Afghani Frock is afghan Traditional clothes having long skirt worn by women in special events like Eid, wedding ceremonies, and other functions",
+      "category": "women`s collection",
+      "image": "https://m.media-amazon.com/images/I/61RXmvUltDL._AC_UY445_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Maxi Dress",
+      "price": "4500",
+      "description": "afghani maxi dress selection for the very best in unique or custom, handmade pieces special for the events like Eid, wedding ceremonies, and other functions.",
+      "category": "women`s collection",
+      "image": "https://i.pinimg.com/originals/9a/97/a9/9a97a9416edca970e4c04e495d41f128.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Dark green velvet",
+      "price": "5000",
+      "description": "Dark green velvet dress selection for the very best in unique or custom, handmade pieces special for the events like Eid, wedding ceremonies, and other functions.",
+      "category": "women`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/01/15D-Front-Chadar-1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Afghani Women Chapan",
+      "price": "3500",
+      "description": "Check out our  Afghani Women Chapan selection for the very best in unique or custom, handmade pieces.",
+      "category": "women`s collection",
+      "image": "https://www.advantour.com/img/uzbekistan/traditional-clothes/national_clothes4.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Afghani Women Topper Jacket",
+      "price": "3400",
+      "description": "This Topper Jacket is an Afghan-Moghal Style with a creative and modern look. It is made of the finest quality fabric.",
+      "category": "women`s collection",
+      "image": "https://i.pinimg.com/originals/68/a8/db/68a8db4d314daaee30957d4adb7152d6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Afghan-Moghal Topper Jacket",
+      "price": "100",
+      "description": "Check out our Afghan-Moghal Topper Jacket selection for the very best in unique or custom, handmade pieces and with Mirror Embroidery.",
+      "category": "women`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/01/17D-Front-Top.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Hazaragi Golabaton Topper Jacket",
+      "price": "2500",
+      "description": "Check out our Hazaragi Golabaton Topper Jacket selection for the very best in unique or custom, handmade pieces and with Mirror Embroidery.",
+      "category": "women`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/01/9D-Front.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Hand Made Kuchi Topper Jacket",
+      "price": "4000",
+      "description": "Check out our hand made kuchi topper jacket selection for the very best in unique or custom, handmade pieces and with Mirror Embroidery.",
+      "category": "women`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/02/30D-Front-Chadar-1.jpg"
+    }
+  ],
+  "bestproduct": [
+    {
+      "id": 7,
+      "title": "Ghoryan Saffron",
+      "price": "5000",
+      "description": "ghoryan saffron contains chemicals that might alter mood, kill cancer cells, decrease swelling, and act as antioxidants.",
+      "category": "saffron collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3v1AcMeQamUlz1GE8lj-cODUw4pqxob6xsCUPOKJo8Yhy2ffPg5hdY4rLU_saD8uskA&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "title": "Afghan Saffron",
+      "price": "4000",
+      "description": "Afghan Saffron the highest quality saffron from Afghanistan We are delighted to provide one of the world’s finest premium-quality saffron.",
+      "category": "saffron collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNICxDZIkbyE0QrUcnew8IQBUG_rA4N4qZCvAcxshD9RZEXCY58Gs3DK6Pk9zAEGzo22E&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "title": "Herat Saffron",
+      "price": "4500",
+      "description": "Herat Saffron is The most expensive and rare trim of Saffron in Afghanistan it is an Anti-Oxidant and it Helps with digestion.",
+      "category": "saffron collection",
+      "image": "https://5.imimg.com/data5/GG/PY/VD/SELLER-23228676/organic-saffron-powder-500x500.jpg"
+    }
+  ],
+  "products": [
+    {
+      "title": "Berry Velvet",
+      "price": "2500",
+      "description": " Berry Velvet Afghan dress is made of blue velvet to keep you warm but still look fashionable at the same time with white zardozi embroidery.",
+      "category": "women`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK-6JhYN3yQopMHs2U5M0iZzlt7vafonwGbCWW0rl0yF8fBztqcm2eQladFiHEmoAvVwA&usqp=CAU",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Kuchi dress",
+      "price": "4000",
+      "description": "kuchi dress is Afghan Traditional clothes having long skirt The full-length long dress comes with a beautiful chest style on the top and clorfull pants.",
+      "category": "women`s collection",
+      "image": "https://m.media-amazon.com/images/I/71fjUjQJyWL._AC_UL1000_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mesh Velvet",
+      "price": "4500",
+      "description": "This Mesh Velvet Afghan Dress is a beautiful combination of velvet block followed by heavy embroidery work on the edges. The full-length long dress comes with a beautiful chest style on the top and matching pants.",
+      "category": "women`s collection",
+      "image": "https://seengar.b-cdn.net/wp-content/uploads/2017/10/Dress-2-720x964.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Velvet dress",
+      "price": "5000",
+      "description": "Check out our afghan velvet dress selection for the very best in unique or custom, handmade pieces from our dresses shops.",
+      "category": "women`s collection",
+      "image": "https://www.sarajo.com/wp-content/uploads/2018/09/WR3904_2-.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Hazara dress",
+      "price": "3500",
+      "description": "This is a traditional Afghani cloth consisting of low skirts, tent and trouser.",
+      "category": "women`s collection",
+      "image": "https://cdn.shopify.com/s/files/1/0277/8372/5149/products/6_223b0d21-c9e1-4c02-93c3-d2daa98223ea_1024x1024.jpg?v=1637178713"
+    },
+    {
+      "id": 6,
+      "title": "Multi Velvet",
+      "price": "3400",
+      "description": "This Multi Velvet Afghan Dress has a modern and vintage touch at the same time, equipped with heavy embroidery and jewelry on the shirt followed by multi-color velvet and orange paint. ",
+      "category": "women`s collection",
+      "image": "https://m.media-amazon.com/images/I/61YnkHXTweL._MCnd_AC_UL320_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Gand afghani",
+      "price": "100",
+      "description": "This is a multi-color suit is made of good quality fabric. It relates to old Afghan Kuchi tribes and such type of tailoring or clothing is traditionally called Afghan embroidery. Typically, such dresses are used on wedding or dance parties",
+      "category": "women`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/01/15D-Front-Chadar-1-300x400.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Balochi dress",
+      "price": "2500",
+      "description": "This is a fully handmade Balochi traditional dress. it is made of the Finest quality silky velvet fabric. this dress can be used for special events like wedding ceremonies, dance parties, and other functions.",
+      "category": "women`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGPEEd4vxNfIntDKpk3HDBWDmpBpWkBTspqiQrSLipcSEWkTjLuVB2LHzAJtRp9EZjWU&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "title": "Jardin Afghani Perfume",
+      "price": "4000",
+      "description": "it is made of oils which give off scent to the surrounding air. The odoriferous compounds that make up a perfume can be manufactured synthetically or extracted from plant or animal sources.",
+      "category": "women`s collection",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fragrance-women2020b-1589562509.jpg?crop=0.405xw:0.811xh;0.288xw,0.0962xh&resize=640:*"
+    },
+    {
+      "id": 21,
+      "title": "Perahan Tunban",
+      "price": "2000",
+      "description": "Perahan Tunban is the national and traditional men's clothing in Afghanistan. Wearing the Men’s dress ‘Peran Tunban’ is pretty common in the Afghanista ",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSK57cVQq5RiXPe4bZkHPNsVs6aIBV4WnzQQ&usqp=CAU"
+    },
+    {
+      "id": 22,
+      "title": "Yakhan Afghani",
+      "price": "1950",
+      "description": "Yakhan Afghani this clothes can be used for special events like wedding ceremonies, dance parties, Eid, and other functions.",
+      "category": "men`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/03/Artboard-4Pirantunban-1.jpg"
+    },
+    {
+      "id": 23,
+      "title": "afghani vest",
+      "price": "1800",
+      "description": "Amazing authentic traditional men's Black velvet vest and hat with heavy Silver braided embroidery,.The items are traditionally worn by the men of the Pashtun tribe of Afghanistan on special occasions",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHTJJACZWnvLXokGkCycq5TJeZm2F9fwx_4Q-DLzgoJeA4kskykE9zXO7RZb8z9cWG36s&usqp=CAU"
+    },
+    {
+      "id": 24,
+      "title": "Kandahari yakhan",
+      "price": "2300",
+      "description": "Afghani Hand made man clothes Kandahari yakhan is a traditional cloth that can be used for special events like wedding ceremonies, dance parties, and Eid.",
+      "category": "men`s collection",
+      "image": "https://i0.wp.com/i.ebayimg.com/images/g/KxwAAOSw-itXsl0r/s-l400.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Multicolor waistcoat",
+      "price": "1600",
+      "description": "Multicolor waistcoat These are traditionally used on special events like wedding Nikah and Mehndi event. Available in medium size. The product is tailored with great care and devotion. ",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmVGpqd3ZLt9lTS0DWPhitzFmBUM_ttv7mZi7KXg72J_XgHGWRgH8mN-GgItEB9Pfgwug&usqp=CAU"
+    },
+    {
+      "id": 26,
+      "title": "Yakhan Herati",
+      "price": "1600",
+      "description": "Afghani Hand made man clothes Yakhan Herati is a traditional cloth. that can be used for special events like wedding ceremonies, dance parties, and Eid.",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE0mW9K3WAC9mPWYUvB1vtRCX38t49chTlrcVMUGVL_GHcfRBQKAO6qteFt28yZZeaUJM&usqp=CAU"
+    },
+    {
+      "id": 27,
+      "title": "Pakul ",
+      "price": "1900",
+      "description": "pakul is a soft, round-topped Afghan man's hat, made of wool in neutral colors.",
+      "category": "men`s collection",
+      "image": "https://i.pinimg.com/originals/2d/4f/fe/2d4ffeb39f8ead0469e1256f179f5d0e.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Afghani Chadar",
+      "price": "1750",
+      "description": "Handmade Afghani chadar /shawl for men’s  %100 pure Acrylic washable large size.",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYweqKvgUCU8DxH_R_IRge3Q_OGg_yeAUan7y0AwINdiauJtNrMVx3noi2mVp4YcX24co&usqp=CAU"
+    },
+    {
+      "id": 29,
+      "title": "Chapan Afghani",
+      "price": "2500",
+      "description": " A chapan Usually worn by men, these coats are adorned with intricate threading and come in a variety of colors and patterns. A chapan cape was often worn by former Afghan president Hamid Karzai.",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpjW3oYICAoLWajzi6EUdtAlvlUn3jOM346ewL_HvBWg0_e1QMyJhwaJkuL65HJQ-1t6s&usqp=CAU"
+    },
+    {
+      "id": 30,
+      "title": "Afghan patu",
+      "price": "2700",
+      "description": "The patu comes with tassels on both ends. This patu (shawl or wrap) is perfect for those cold nights and can double as a blanket. It is worn in most parts of Afghanistan  Makes a wonderful gift for family, friends and co-workers. The patu is machine washable (delicates), use cold water. Made from 100% wool material.",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk3fVUEXfDHzqqYj4ZNCtPrFJVVAhUjyqh3hREGcIYevg_RXO54AFyn0vgzj3STQ16f1U&usqp=CAU"
+    },
+    {
+      "id": 31,
+      "title": "Mazari Hat",
+      "price": "2300",
+      "description": "mazari hat Usually worn by men, these hats are adorned with intricate threading and come in red colors and patterns.",
+      "category": "men`s collection",
+      "image": "https://i.ebayimg.com/images/g/to0AAOSwFdxhoAdg/s-l400.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Black Afghan Perfume For Men",
+      "price": "2100",
+      "description": "Black Afgano is meant to capture some of the scent qualities and all of the effects of the herb: smoky, smooth and deep; a mellow yet deep and distinct fragrance high.",
+      "category": "men`s collection",
+      "image": "http://cdn.shopify.com/s/files/1/0091/1861/3583/products/black-afgano-extrait-de-parfum-nasomatto-30-ml-perfume-lounge-2.jpg?v=1556172810"
+    },
+    {
+      "id": 33,
+      "title": "Reghen's Afghani Perfume",
+      "price": "1650",
+      "description": "It is a mysterious, enveloping and hypnotic niche scent, strong but never overwhelming.",
+      "category": "men`s collection",
+      "image": "https://www.perfume-history.de/media/image/product/316/lg/reghens-montparnasse-edp-en.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Afghani Rolex",
+      "price": "2100",
+      "description": " extremely unusual Rolex chronometer watch, made for the Afghan royal family",
+      "category": "men`s collection",
+      "image": "http://cdn.shopify.com/s/files/1/1377/0411/products/rolex-oyster-mens-vintage-1929-gold-watch-518052.jpg?v=1612234352"
+    },
+    {
+      "id": 35,
+      "title": "Afghan Men's White Khamaki Clothes",
+      "price": "2000",
+      "description": "The traditional clothes that Afghan men wear referred to as White Khamaki  Clothes which consist of large baggy pants and a long top that covers up to the knees.",
+      "category": "men`s collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/02/w2-3-300x400.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Nuristani Handwoven Short Chapan",
+      "price": "2400",
+      "description": " Nuristani  Chapan Usually worn by men, these coats are adorned with intricate threading and come in a variety of colors and patterns. and they are made from Sheep Wool Fabric.",
+      "category": "men`s collection",
+      "image": "https://cdn10.bigcommerce.com/s-up2oa/products/206/images/635/afghan_white_lux_zpsbihpfkza__08319.1453152344.1280.1280.JPG?c=2"
+    },
+    {
+      "id": 37,
+      "title": "Nuristani Pakol",
+      "price": "2000",
+      "description": "a round-topped, soft type of men's hat, usually made from wool, traditionally worn by the people of Nuristani.",
+      "category": "men`s collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkJLLZdSrQrEOCLCyai_ReQ4Q-FgrS5gUYQ&usqp=CAU"
+    },
+    {
+      "id": 38,
+      "title": "Afghani Wastecoat",
+      "price": "1900",
+      "description": "This is a Traditional item can be used as Pashtoon, Balochi and Kashmiri and tribal Cultural Functions and Weddings parties, EID etc",
+      "category": "men`s collection",
+      "image": "https://trc-leiden.nl/trc-digital-exhibition/media/k2/galleries/73/2007.0330.JPG"
+    },
+    {
+      "id": 39,
+      "title": "Men Scarf",
+      "price": "1800",
+      "description": "The destmAl (scarf) is a common accessory for men wearing western or traditional clothing. It is worn around the neck, face or head (to protect from cold or dust).",
+      "category": "men`s collection",
+      "image": "https://m.media-amazon.com/images/I/71kAgnzEbIL._AC_UL1500_.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Khamaki Clothes",
+      "price": "2600",
+      "description": "The traditional clothes that Afghan men wear referred to as Khamaki Clothes which consist of large baggy pants and a long top that covers up to the knees. ",
+      "category": "men`s collection",
+      "image": "https://img1.yiwugou.com/i004/2020/02/15/11/7f7b47227453b4fdfde36c1ce29c59fa.jpg?spm=ZW4ueWl3dWdvLmNvbS9wcm9kdWN0L2RldGFpbC85MzExNDAzMjUuaHRtbA=="
+    },
+    {
+      "id": 41,
+      "title": "Afghani Beads ",
+      "price": "1000",
+      "description": "Check out our afghan beads selection for the very best in unique or custom, handmade pieces from our store. it consists of a strand of tiny glass seed beads.",
+      "category": "jewllery collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXDxBBGgY2-ZfK3qXoqnGRjRTUuTKOnzsqY7ESthmbVYbg9OaZxPQxeoxwnxrzvYpCKEU&usqp=CAU"
+    },
+    {
+      "id": 42,
+      "title": "Afghani Pearl necklace",
+      "price": "1200",
+      "description": "Afghani Pearl necklace is also a fine example of the craftsmanship of the Afghan tribal. The matching set comprises a beautiful ring, a choker, and a pair of exquisite earrings. The ring and earrings, made of German Silver alloy are adorned with traditional carvings and a beautiful red pearl. ",
+      "category": "jewllery collection",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2021/11/SX/RV/HI/139608783/moti-jewellery03-250x250.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Afghani Change Purse",
+      "price": "1150",
+      "description": "Leather from goat's skin, other materials are from Gand Afghani, have lining, leather.",
+      "category": "jewllery collection",
+      "image": "https://i.pinimg.com/originals/07/06/89/0706896242eb90d16dbebad31003a779.jpg"
+    },
+    {
+      "id": 44,
+      "title": "Afghani Embroidered Office Bag",
+      "price": "1100",
+      "description": "Leather from goat's skin, other materials are from Gand Afghani, have lining, leather.",
+      "category": "jewllery collection",
+      "image": "https://5.imimg.com/data5/UU/YE/TO/SELLER-3888580/embroidered-leather-laptop-bag-500x500.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Afghani Handbag",
+      "price": "900",
+      "description": "Leather from goat's skin, other materials are from Gand Afghani, have lining, leather, handbag.",
+      "category": "jewllery collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5BLupbeDXHNCM67EQUIiQt3ZCCmi7GuvzPeZ3ZiFMDSwPTd2A8SiyvVWyDnxSXnb-Rh8&usqp=CAU"
+    },
+    {
+      "id": 46,
+      "title": "Kuchi Shoulder Bag",
+      "price": "950",
+      "description": "This is such a stunning bag, it will certainly turn heads! The mixed media embroidery combines sequins, mirrors and fine needle work embroidery.",
+      "category": "jewllery collection",
+      "image": "https://cpimg.tistatic.com/05471821/b/5/Banjara-Bags.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Balochi Shoulder Bag",
+      "price": "850",
+      "description": "This Bag is made with afghan embroidery with moti , tilla & lace style  and lovely look bag.",
+      "category": "jewllery collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nR8yFM_gNHYIOIETe4Q3Cij9yP4OlJiQ5A&usqp=CAU"
+    },
+    {
+      "id": 48,
+      "title": "Afghani Small Shoulder Bag",
+      "price": "1300",
+      "description": "Afghani Small Shoulder Bag This Bag is made by afghan embroidery style and small mirrors inside to give a proper and lovely look to bag.",
+      "category": "jewllery collection",
+      "image": "https://m.media-amazon.com/images/I/91gvC5+VawL._UY395_.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Afghani Watch/wrist watch",
+      "price": "1500",
+      "description": "small watch that is attached to a bracelet or strap and is worn around the wrist Afghanistan Country Flag Men's Black Jelly Silicone Wrist Watch",
+      "category": "jewllery collection",
+      "image": "https://m.media-amazon.com/images/I/61GuyDzeGOS._AC_UX569_.jpg"
+    },
+    {
+      "id": 50,
+      "title": "Afghani Pendant",
+      "price": "1400",
+      "description": "We're so very happy to bring you lovely people these beautiful handcrafted vintage Afghani pendants, sewn into a bohemian thread necklace.",
+      "category": "jewllery collection",
+      "image": "https://cdn.shopify.com/s/files/1/0597/4959/7369/products/il_1140xN.3534624399_sati_1024x1024@2x.jpg?v=1645613995"
+    },
+    {
+      "id": 51,
+      "title": "Afghani Cufflinks",
+      "price": "1000",
+      "description": "Complement your classy looks with Afghan cufflinks, a work of art made with sterling silver and lapis lazuli.",
+      "category": "jewllery collection",
+      "image": "https://cdn.shopify.com/s/files/1/0318/4839/8907/products/bdc33693e013bf24f26415487c725bb9_1000x.jpg?v=1586843649"
+    },
+    {
+      "id": 52,
+      "title": "Kuchi Earring ",
+      "price": "1500",
+      "description": "Kuchi Earring is ethnic Afghani tribal earrings are light in weight and made with oxidized German silver & colored glass. It's part of our traditional Afghani imitation jewelry collection.",
+      "category": "jewllery collection",
+      "image": "https://i.etsystatic.com/16444502/r/il/3fdd18/2832330369/il_570xN.2832330369_3ij3.jpg"
+    },
+    {
+      "id": 53,
+      "title": "Afghani Earring",
+      "price": "2000",
+      "description": "Afghani Earring Ethnic Afghani tribal earrings are light in weight made with oxidized German silver & colored glass. It's part of our traditional Afghani imitation jewelry collection.",
+      "category": "jewllery collection",
+      "image": "https://m.media-amazon.com/images/I/81O+Jt4rt+L._UY500_.jpg"
+    },
+    {
+      "id": 54,
+      "title": "Afghani Bracelet",
+      "price": "1500",
+      "description": "This is a vintage Kuchi tribal bracelet from Afghanistan. The center medallion and stone is trimmed with ornate curled silverware accents.",
+      "category": "jewllery collection",
+      "image": "https://i0.wp.com/www.kuchijewels.com/wp-content/uploads/2020/12/IMG_20201213_133708.jpg?fit=1024%2C768&ssl=1"
+    },
+    {
+      "id": 55,
+      "title": " Afghani Necklace",
+      "price": "1000",
+      "description": "This is a handmade antique nomadic afghani necklace. An authentic old, rare and beautiful piece of jewelry in a vintage. ",
+      "category": "jewllery collection",
+      "image": "https://www.bellydance.com/assets/images/7684.jpg"
+    },
+    {
+      "id": 56,
+      "title": "Kuchi Necklace",
+      "price": "1200",
+      "description": "This is a handmade antique nomadic Kuchi Banjara  Afghani tribe choker necklace.",
+      "category": "jewllery collection",
+      "image": "https://5.imimg.com/data5/RR/RC/MY-27480457/20180123_220907-500x500.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Zamarud Ring",
+      "price": "1000",
+      "description": "often considered to be the most traditional choice for men's wedding bands, Zamurd Ring offer a timelessly elegant and luxurious look",
+      "category": "jewllery collection",
+      "image": "https://4.imimg.com/data4/SJ/RL/MY-29546353/ring-500x500.jpg"
+    },
+    {
+      "id": 58,
+      "title": "Ruby Ring",
+      "price": "1450",
+      "description": "Real Ruby ring this Ruby is Unheated untreated cut and polished by ourselves from the Raw stone from Afghanistan.",
+      "category": "jewllery collection",
+      "image": "https://cdn20.pamono.com/p/g/8/2/823228_9ixzc2mn5u/18k-glass-filled-ruby-ring-1966-1.jpg"
+    },
+    {
+      "id": 59,
+      "title": "Silver Plated Afghani Ring",
+      "price": "1350",
+      "description": "Women Oxidized Silver Plated Afghani Rings for Women and Girls",
+      "category": "jewllery collection",
+      "image": "https://www.jiomart.com/images/product/500x630/rv0nsavnft/youbella-women-oxidized-silver-plated-afghani-rings-for-women-and-girls-adjustable-size-combo-of-3-style-1-product-images-rv0nsavnft-1-202202260803.jpg"
+    },
+    {
+      "id": 60,
+      "title": "Silver Ring",
+      "price": "1250",
+      "description": "Vintage Natural Mens Lapis Lazuli Rings 925 Sterling Silver Dragon Claws Prong Setting Index Finger Ring Afghani Jewelry made from silver.",
+      "category": "jewllery collection",
+      "image": "https://cf.shopee.ph/file/46aa4a329e20a4f525f7944256e809c9"
+    },
+    {
+      "id": 78,
+      "title": "Afghani rug",
+      "price": "30000",
+      "description": "Afghani rugs are among the finest rugs made in the world today. Each is exclusively designed and is a unique work of art with its individual color palette. They cannot be ordered to size, ensuring a one of a kind rug.",
+      "category": "rug collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-kZnOl9eRJ4GpyR7p7vVl6j0UTDfxjMHOA&usqp=CAU"
+    },
+    {
+      "id": 79,
+      "title": "Baluchi rug",
+      "price": "36000",
+      "description": "Baluchi rug, Baluchi also spelled Baloochi or Balochi, floor covering woven by the Baloch people living in Afghanistan. The patterns in these rugs are highly varied, many consisting of repeated motifs, diagonally arranged across the field. Some present a maze of intricate latch-hooked forms.",
+      "category": "rug collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiRbt01cF94fhRcjxzLk18Y8hHKbYjNRs8l7QA4gZaQxLNnXp15wXVB8CSBJoIBrHFGk&usqp=CAU"
+    },
+    {
+      "id": 80,
+      "title": "Turkoman rug",
+      "price": "47000",
+      "description": "Turkoman rugs are woven in geometric designs, employing vivid reds, browns, and greens, and usually have webbed fringes at the ends. Caucasian rugs have sharply outlined, bold, geometric patterns.",
+      "category": "rug collection",
+      "image": "https://kebabians.com/wp-content/uploads/2019/02/33264-Super_Fine_Turkmen_Afghan_Wool_Rug-50x510-Afghanistan-3.jpg"
+    },
+    {
+      "id": 81,
+      "title": "Multicolor High Heels",
+      "price": "2000",
+      "description": "Multicolor High Heels are an Afghani shoe made from  Leather and worn by Women during Eid and other functions.",
+      "category": "shoes collection",
+      "image": "https://sadikyilmaz.az/data/img/202007/50/medium_566-4122-4.webp"
+    },
+    {
+      "id": 82,
+      "title": "Charmi Sandal",
+      "price": "1800",
+      "description": "Afghani Charmi Sandal is an Afghani sandal made from  Leather and worn by Men during Eid and other functions.",
+      "category": "shoes collection",
+      "image": "https://dpbfm6h358sh7.cloudfront.net/images/10299023/945494437.jpg"
+    },
+    {
+      "id": 83,
+      "title": "Afghani Formal Sandal",
+      "price": "1900",
+      "description": "Afghani Formal Sandal is an Afghani sandal made from  Leather and worn by Men during Eid and other functions.",
+      "category": "shoes collection",
+      "image": "https://image.made-in-china.com/43f34j00VysaDNGAlTkJ/High-Quality-China-Wholesale-Man-Genuine-Leather-Casual-Sandal-WH0001-.jpg"
+    },
+    {
+      "id": 84,
+      "title": "Afghani High Heels Moza",
+      "price": "1100",
+      "description": "Afghani High Heels Moza  is an Afghani shoe made from  Leather and worn by women during Eid and other functions.",
+      "category": "shoes collection",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR94BKvacR1SUfyUo88IS2hI7MzFxbC1OnnX88vs783wO6KdyYicybq0XfenunkD7v0-SM&usqp=CAU"
+    },
+    {
+      "id": 85,
+      "title": "Afghani Moza",
+      "price": "1500",
+      "description": "Afghani Moza Formal Shoe is an Afghani shoe made from  Leather and worn by Men during Eid and other functions.",
+      "category": "shoes collection",
+      "image": "https://photos6.spartoo.eu/photos/156/15683505/15683505_500_A.jpg"
+    },
+    {
+      "id": 86,
+      "title": "Afghani Black Formal Shoe",
+      "price": "1200",
+      "description": "Afghani Black Formal Shoe is an Afghani shoe made from  Leather and worn by Men during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://www.smartorial.men/wp-content/uploads/2020/07/Morjas_black-oxford_1-1024x683.jpg"
+    },
+    {
+      "id": 87,
+      "title": "Afghani Formal Shoe",
+      "price": "1550",
+      "description": "Afghani Formal Shoe is an Afghani shoe made from  Leather and worn by Men during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://rukminim2.flixcart.com/image/714/857/shoe/c/z/c/tan-oxfordbroguecaptoe-hirel-s-12-original-imaektyujvenuets.jpeg?q=50"
+    },
+    {
+      "id": 88,
+      "title": "Half Slipper",
+      "price": "1450",
+      "description": "Half Slipper is an Afghani shoe made from  Leather and worn by Men during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://sc01.alicdn.com/kf/H973718fc96224dbc9bd646af0ed4bf1fP/231622763/H973718fc96224dbc9bd646af0ed4bf1fP.jpg_.webp"
+    },
+    {
+      "id": 89,
+      "title": "Ankle Boots",
+      "price": "1350",
+      "description": "Ankle Boots is an Afghani shoe made from  Leather and worn by women during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://m.media-amazon.com/images/I/91dRi01KpIL._AC_UY395_.jpg"
+    },
+    {
+      "id": 90,
+      "title": "Gazelle Boots",
+      "price": "1250",
+      "description": "Gazelle Boot is an Afghani shoe made from  Leather and worn by women.",
+      "category": "shoes collection",
+      "image": "https://mauricesprodatg.scene7.com/is/image/mauricesProdATG/133316_C1144?$large$"
+    },
+    {
+      "id": 91,
+      "title": "Gazelle Shoe",
+      "price": "1450",
+      "description": "Gazelle Shoe is an Afghani shoe made from  Leather and worn  by the girls.",
+      "category": "shoes collection",
+      "image": "https://www.ubuy.com/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFvR1IybHNJWEwuX0FDX1VMMTUwMF8uanBn.jpg"
+    },
+    {
+      "id": 92,
+      "title": "Kabuli shoe",
+      "price": "1250",
+      "description": "Kabuli shoe is a traditional shoe made from work Leather and worn especially by men during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://5.imimg.com/data5/KT/TL/LU/SELLER-27409404/brown-kabuli-loafer-shoes-500x500.jpg"
+    },
+    {
+      "id": 93,
+      "title": "Kabuli sandal",
+      "price": "900",
+      "description": "Kabuli sandal is a traditional sandal made from work Leather and worn especially by men during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://pbs.twimg.com/media/Dc_ItwqV4AAJSUw?format=jpg&name=900x900"
+    },
+    {
+      "id": 94,
+      "title": "Damad sandal",
+      "price": "1500",
+      "description": "Damad sandal is a traditional sandal made from work Leather and the Tilla work on Leather worn especially by the groom during wedding ceremonies.",
+      "category": "shoes collection",
+      "image": "https://i.pinimg.com/originals/98/2f/89/982f89667c435a6ccdf4a366b791bd3e.jpg"
+    },
+    {
+      "id": 95,
+      "title": "Afghani Tilla Work Chappal",
+      "price": "1350",
+      "description": "Afghani Tilla Work Chappal is a traditional sandal made from work Leather and the Tilla work on Leather worn especially by women during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://cdn.shopify.com/s/files/1/0562/4653/4329/products/Chappal_large_crop_center.jpg?v=1622099381"
+    },
+    {
+      "id": 96,
+      "title": "Afghani Chappal",
+      "price": "950",
+      "description": "Afghani Chappal is a traditional sandal made from Leather worn especially during Eid, wedding ceremonies, and other functions.",
+      "category": "shoes collection",
+      "image": "https://i.etsystatic.com/12247217/r/il/bd576d/983267292/il_570xN.983267292_kkgd.jpg"
+    },
+    {
+      "id": 97,
+      "title": "Afghani High Heel shoe",
+      "price": "1250",
+      "description": "Afghani High heels are a type of shoe in which the heel, compared with the toe, is significantly higher off the ground. They make the wearer appear taller, accentuating the calf muscle and the length of the leg overall.",
+      "category": "shoes collection",
+      "image": "https://bazarak.us/wp-content/uploads/2021/03/w5Shoes.jpg"
+    },
+    {
+      "id": 98,
+      "title": "Afghani Low Heels Shoe",
+      "price": "1000",
+      "description": "Afghani low heels shoe selection for the very best in unique or custom, Leather from goat's skin, other materials are from Gand Afghani, have lining This low heels shoe ladies shoes suitable for your daily wear or any special event. high-quality handmade product",
+      "category": "shoes collection",
+      "image": "https://aseelapp.com/media/catalog/product/cache/76e0a1cb468880c5654124929ca03ee4/a/s/aseel-lora-1057-10.jpg"
+    },
+    {
+      "id": 99,
+      "title": "Pathani Sandals",
+      "price": "1000",
+      "description": "Get Latest Price Keeping in mind the precise demands of clients, we trade and supply a unique range of Men Pathani Sandals. Comfortable to wear these sandals are available in various attractive patterns, designs and styles as per the requirements of clients. Our sandals are extensively preferred by most of the clients owing to exclusive designs, lustrous shine and ethnic appearance. We provide our sandals at pocket friendly rates.   ",
+      "category": "shoes collection",
+      "image": "https://i.pinimg.com/originals/bb/23/27/bb232798106c7a047cf0141a461c6b72.jpg"
+    },
+    {
+      "id": 100,
+      "title": "Kuchi Khussa",
+      "price": "1500",
+      "description": " Afghani Kuchi Khussa selection for the very best in unique or custom, handmade pieces. This khussa ladies shoes suitable for your daily wear or any special event. high-quality handmade product. ",
+      "category": "shoes collection",
+      "image": "https://i0.wp.com/www.kuchijewels.com/wp-content/uploads/2020/06/IMG_20200609_182532.jpg?resize=265%2C331&ssl=1"
+    },
+    {
+      "id": 101,
+      "title": "Pushal Saffron",
+      "price": "5000",
+      "description": "Pushal Saffron contains red saffron Kolalehs (red part) with a portion of cream (white part) this Saffron contains bioactive components like crocetin and crocin which have anti-atherosclerotic effects on human beings.",
+      "category": "saffron collection",
+      "image": "https://i0.wp.com/royalsaffron.af/wp-content/uploads/2020/09/pushal-saffron-from-Afghanistan.jpg?resize=465%2C371&ssl=1"
+    },
+    {
+      "id": 102,
+      "title": "Sargol Saffron",
+      "price": "4000",
+      "description": "Sargol Saffron is the highest quality saffron from Afghanistan We are delighted to provide one of the world’s finest premium-quality saffron. Our premium all-red saffron of grade A+ is distinct due to its thick filaments and deep crimson red bold coloring. ",
+      "category": "saffron collection",
+      "image": "https://i0.wp.com/royalsaffron.af/wp-content/uploads/2020/06/afghanroyalsaffron_jar.jpg?resize=499%2C356&ssl=1"
+    },
+    {
+      "id": 103,
+      "title": "Special Super Negin Saffron",
+      "price": "4500",
+      "description": "Special Super Negin Saffron is The most expensive and rare trim of Saffron in Afghanistan it is an Anti-Oxidant and it Helps with digestion..",
+      "category": "saffron collection",
+      "image": "https://img3.21food.com/simg/product/2020/11/18/food3052201605678275101386.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
