@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f5f5f5
+}
+.left-side-product-box img {
+    width: 100%;
+}
+.right-side-pro-detail p {
+    font-size: 25px;
+    color: #a1a1a1;
+}
+.category{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

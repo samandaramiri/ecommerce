@@ -1,0 +1,67 @@
+<div class="account section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="signup-form border p-5">
+                    <div class="text-center heading">
+                        <h2 class="mb-2">Signup</h2>
+                        <p class="lead">Already have an account! <a routerLink="/login"> Login now</a></p>
+                    </div>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <div class="form-group mb-3">
+                            <label for="fullname" class="form-label">Full Name</label>
+                            <input type="text" class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                                id="fullname" pattern="[a-zA-Z][a-zA-Z]+"
+                                [ngClass]="{'is-invalid' : signupForm.get('fullname')?.touched && signupForm.get('fullname')?.invalid }"
+                                formControlName="fullname" />
+                            <span class="invalid-feedback">
+                                <span *ngIf="signupForm.get('fullname')?.hasError('required')">Name is required</span>
+                                <span *ngIf="signupForm.get('fullname')?.hasError('pattern')">Type correct Name</span>
+                            </span>
+                        </div>
+                        <div class=" mb-3">
+                            <label for="email1" class="form-label">Email address</label>
+                            <input type="email" id="email1"
+                                class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                                [ngClass]="{'is-invalid' : signupForm.get('email')?.touched && signupForm.get('email')?.invalid }"
+                                formControlName="email" />
+                            <span class="invalid-feedback">
+                                <span *ngIf="signupForm.get('email')?.hasError('required')">Email is required</span>
+                                <span *ngIf="signupForm.get('email')?.hasError('email')">Type a valid Email</span>
+                            </span>
+                            <div id="emailHelp" class="form-text text-primary">We`ll not share your email with anyone
+                                else</div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mobile" class="form-label">Mobile No</label>
+                            <input id="mobile" pattern="^[1-9]{1}[0-9]{9}"
+                                class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                                [ngClass]="{'is-invalid' : signupForm.get('mobile')?.touched && signupForm.get('mobile')?.invalid }"
+                                formControlName="mobile" />
+                            <span class="invalid-feedback">
+                                <span *ngIf="signupForm.get('mobile')?.hasError('required')">Mobile is required</span>
+                                <span *ngIf="signupForm.get('mobile')?.hasError('pattern')">Enter 10 digit mobile
+                                    number</span>
+                            </span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input formControlName="password" type="password" minlength="5"
+                                class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="password"
+                                [ngClass]="{ 'is-invalid': signupForm.get('password')?.touched && signupForm.get('password')?.invalid }" />
+                            <span class="invalid-feedback">
+                                <span *ngIf="signupForm.get('password')?.hasError('required')">Password is
+                                    required.</span>
+                                <span *ngIf="signupForm.get('password')?.hasError('minlength')">Password should be above
+                                    5 digits.</span>
+                            </span>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm"
+                            [disabled]="signupForm.invalid">Signup</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,234 @@
+<div class="container">
+   <app-header></app-header>
+</div>
+<section class="page-header">
+   <div class="overly"></div>
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-lg-6">
+            <div class="content text-center">
+               <h1 class="mb-3">Checkout</h1>
+               <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb bg-transparent justify-content-center">
+                     <li class="breadcrumb-item"><a routerLink="home">Home</a></li>
+                     <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                  </ol>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<div class="page-wrapper">
+   <form [formGroup]="paycashForm" (ngSubmit)="paycash()" (ngSubmit)="paystipe()">
+      <div class="checkout shopping">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 pr-5">
+                  <div class="billing-details mt-5">
+                     <h4 class="mb-4">Billing Details</h4>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="form-group mb-4">
+                              <label for="firstname" class="form-label">First Name</label>
+                              <input type="text"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="firstname"
+                                 pattern="[a-zA-Z][a-zA-Z]+"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('firstname')?.touched && paycashForm.get('firstname')?.invalid }"
+                                 formControlName="firstname" />
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('firstname')?.hasError('required')">Name is
+                                    required</span>
+                                 <span *ngIf="paycashForm.get('firstname')?.hasError('pattern')">Type correct
+                                    Name</span>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group mb-4">
+                              <label for="lastname" class="form-label">Last Name</label>
+                              <input type="text"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="lastname"
+                                 pattern="[a-zA-Z][a-zA-Z]+"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('lastname')?.touched && paycashForm.get('lastname')?.invalid }"
+                                 formControlName="lastname" />
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('lastname')?.hasError('required')">Name is required</span>
+                                 <span *ngIf="paycashForm.get('lastname')?.hasError('pattern')">Type correct Name</span>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <label for="apartment">Apartment, suite, unit etc. (optional)</label>
+                              <input formControlName="apartment" type="text"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="apartment"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('apartment')?.touched && paycashForm.get('apartment')?.invalid }" />
+
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('apartment')?.hasError('required')">Apartment, suite, unit
+                                    is
+                                    required</span>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <label for="town">Town / City </label>
+                              <input formControlName="town" type="text"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="town"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('town')?.touched && paycashForm.get('town')?.invalid }" />
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('town')?.hasError('required')">City is
+                                    required</span>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <label for="company_name">District </label>
+                              <select formControlName="district"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary">
+                                 <option value="">Select an Option</option>
+                                 <option value="Kabul">Kabul</option>
+                                 <option value="Mazar Sharif">Mazar Sharif</option>
+                                 <option value="Wardak">Wardak</option>
+                                 <option value="Ghazni">Ghazni</option>
+                                 <option value="Kandahar">Kandahar</option>
+                                 <option value="Jalalabad">Jalalabad</option>
+                                 <option value="Fara">Fara</option>
+                                 <option value="Herat">Herat</option>
+                                 <option value="Takhar">Takhar</option>
+                                 <option value="Kunduz">Kunduz</option>
+                                 <option value="Badakhshan">Badakhshan</option>
+                                 <option value="Panshir">Panshir</option>
+                                 <option value="Nemroz">Nemroz</option>
+                                 <option value="Bamyan">Bamyan</option>
+                                 <option value="Daikundi">Daikundi</option>
+                                 <option value="Saripul">Saripul</option>
+                                 <option value="Paktia">Paktia</option>
+                                 <option value="Paktika">Paktika</option>
+                                 <option value="Noristan">Noristan</option>
+                                 <option value="Jozjan">Jozjan</option>
+                                 <option value="Faryab">Faryab</option>
+                                 <option value="Badgiz">Badgiz</option>
+                                 <option value="Baghlan">Baghlan</option>
+                                 <option value="November">Ghor</option>
+                                 <option value="Helmand">Helmand</option>
+                                 <option value="Kapisa">Kapisa</option>
+                                 <option value="Kunar">Kunar</option>
+                                 <option value="Laghman">Laghman</option>
+                                 <option value="Logar">Logar</option>
+                                 <option value="Parwan">Parwan</option>
+                                 <option value="Samangan">Samangan</option>
+                                 <option value="Urizgan">Urizgan</option>
+                                 <option value="Zabul">Zabul</option>
+                                 <option value="July">other</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <label for="postcode">Postcode / ZIP (optional)</label>
+                              <input formControlName="postcode" type="number"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="postcode"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('postcode')?.touched && paycashForm.get('postcode')?.invalid }" />
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('postcode')?.hasError('required')">Postcode / ZIP is
+                                    required</span>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <label for="phone" class="form-label">Phone No</label>
+                              <input id="phone" type="number" pattern="^[1-9]{1}[0-9]{9}"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('phone')?.touched && paycashForm.get('phone')?.invalid }"
+                                 formControlName="phone" />
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('phone')?.hasError('required')">Phone is required</span>
+                                 <span *ngIf="paycashForm.get('phone')?.hasError('pattern')">Enter 10 digit phone
+                                    number</span>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group mb-4">
+                              <label for="email1" class="form-label">Email address</label>
+                              <input type="email" id="email1"
+                                 class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                                 [ngClass]="{'is-invalid' : paycashForm.get('email')?.touched && paycashForm.get('email')?.invalid }"
+                                 formControlName="email" />
+                              <span class="invalid-feedback">
+                                 <span *ngIf="paycashForm.get('email')?.hasError('required')">Email is required</span>
+                                 <span *ngIf="paycashForm.get('email')?.hasError('email')">Type a valid Email</span>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="product-checkout-details mt-5 mt-lg-0">
+                        <h4 class="mb-4 border-bottom pb-4">Order Summary</h4>
+                        <div *ngFor=" let item of products " class=" media product-card">
+                           <div class="form-group mb-4">
+                              <a formControlName="product">{{item.title}}</a>
+                           </div>
+                           <div class="media-body text-right">
+                              <p class="h5" formControlName="price"> : 1 x {{item.price}}</p>
+                           </div>
+                        </div>
+                        <ul class="summary-prices list-unstyled mb-4">
+                           <li class="d-flex justify-content-between">
+                              <label for="total">Total</label>
+                              <a formControlName="total" class="h5">{{grandTotal}}</a>
+                           </li>
+                        </ul>
+                        <div class="form-group mb-4">
+                           <input type="checkbox" class="form-check-input" id="check" formControlName="check"
+                              [ngClass]="{'is-invalid' : paycashForm.get('check')?.touched && paycashForm.get('check')?.invalid }" />
+                           <span class="invalid-feedback">
+                              <span *ngIf="paycashForm.get('postcode')?.hasError('required')">Need to accept the terms
+                                 and conditions</span>
+                           </span>
+                           <label class="form-check-label" formControlName="check" for="check">I have read and agree to
+                              the
+                              website terms and
+                              conditions *</label>
+                        </div>
+                        <div class="info mt-4 border-top pt-4 mb-5">
+                           Your personal data will be used to process your order, support your experience throughout
+                           this
+                           website, and for other purposes described in our <a href="/policy">privacy policy</a>.
+                        </div>
+                        <button class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm"
+                           [disabled]="paycashForm.invalid" (click)="makePayment(100)">Pay with creditcard</button>
+                        <button type="submit"
+                           class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm"
+                           [disabled]="paycashForm.invalid" (click)="paycash()"> Pay COD</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </form>
+</div>
+<div class="modal fade" id="coupon-modal" tabindex="-1" role="dialog">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content py-5">
+         <div class="modal-body">
+            <form>
+               <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Enter Coupon Code">
+               </div>
+               <button type="button" class="btn btn-main btn-small" data-dismiss="modal">Apply Coupon</button>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="container0">
+   <app-footer></app-footer>
+</div>

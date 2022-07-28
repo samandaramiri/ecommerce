@@ -1,0 +1,41 @@
+<div class="container2">
+    <div class="row justify-content-center">
+        <form [formGroup]="editProduct" (ngSubmit)="UpdateData()">
+            <h2 class="mb-2" style="text-align: center; color: rgb(255, 107, 62);">Edit Product detail</h2>
+            <div class="form-group mb-3">
+                <label for="title" class="form-label">Proctuct name</label>
+                <input type="text" class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                    id="title" pattern="[a-zA-Z][a-zA-Z]+"
+                     formControlName="title" />
+             </div>
+            <div class="form-group mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="price" id="price"
+                    class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                    formControlName="price" />
+         </div>
+            <div class="form-group mb-3">
+                <label for="description" class="form-label">Description</label>
+                <input id="description" pattern="^[1-9]{1}[0-9]{9}"
+                    class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                    formControlName="description" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="category" class="form-label">Category</label>
+                <input formControlName="category" type="category" minlength="5"
+                    class="form-control rounded-pill border 10 shadow-sm px-10 text-primary" id="category"
+                  />
+                  <div id="categoryHelp" class="form-text text-primary">women`s collection,men`s collection, jwewllery collection, rug collection, shoes collection, saffron collection</div>
+            </div>
+            <div class="form-group mb-3">
+                <label for="image" class="form-label">Image Url</label>
+                <input id="image"
+                    class="form-control rounded-pill border 10 shadow-sm px-10 text-primary"
+                    formControlName="image" />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm"
+               >Update Product</button>
+        </form>
+    </div>
+</div>

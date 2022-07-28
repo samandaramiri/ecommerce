@@ -1,0 +1,30 @@
+.container{
+    background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0.7), 
+    rgba(1, 238, 100, 0.7)   
+  );
+}
+.cart_icon{
+  position: relative;
+  cursor: pointer;
+}
+.cart_icon a{
+  font-size: 15px;
+  color: rgb(199, 76, 38);
+}
+.cart_value{
+  position: absolute;
+  top: -16px;
+  right: -20px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 4px 10px;
+  font-weight: 800;
+  font-size: 10px;
+}
+.dropdown-menu button {
+  font-size: 15px;
+  padding: 4px 10px;
+}

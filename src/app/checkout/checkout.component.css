@@ -1,0 +1,14 @@
+.page-wrapper{
+    margin-left: 350px;
+   
+}
+.billing-details{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 0),
+        rgba(1, 238, 100, 0.7)
+        
+      );
+      border-radius: 30px;
+      border-color: aliceblue;
+}

@@ -1,0 +1,10 @@
+.login-form {
+
+  background: linear-gradient(90deg,
+      rgba(255, 0, 0, 0),
+      rgba(1, 238, 100, 0.7));
+}
+
+.invalid-feedback {
+  margin-left: 25px;
+}

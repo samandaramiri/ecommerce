@@ -1,0 +1,50 @@
+<section class="section title1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="title text-center">
+                    <h2>feedbacks</h2>
+                    <a routerLink="/dashlogin/dash"> Goto Dashbourd</a>
+                </div>
+            </div>
+        </div>
+        <section class="section data">
+            <div class="container1">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title text-center">
+                            <div class="container">
+                                <div class="card-table">
+                                    <div class="cart-product">
+                                        <table class="table table-responsive">
+                                            <thead>
+                                                <tr>
+                                                    <th>No</th>
+                                                    <th>Fullname</th>
+                                                    <th>eMAIL</th>
+                                                    <th>Country</th>
+                                                    <th>Message</th>
+                                                    <th>Action</th>
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr *ngFor="let item of contectsData; let i=index">
+                                                    <td>{{i+1}}</td>
+                                                    <th style="width: 25%">{{item.fullname}}</th>
+                                                    <td style="width: 15%;">{{item.email}}</td>
+                                                    <td style="width: 100%;">{{item.country}}</td>
+                                                    <td style="width: 25%">{{item.detail}}</td>
+                                                    <td><Span style="color:red ;" (click)="deleteContect(item.id)">Delete</Span></td>
+                                                    
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

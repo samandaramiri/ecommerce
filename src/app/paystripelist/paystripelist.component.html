@@ -1,0 +1,60 @@
+<section class="section title1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="title text-center">
+                    <h2>Pay With Stripe</h2>
+                    <a routerLink="/dashlogin/dash"> Goto Dashbourd</a>
+                </div>
+            </div>
+        </div>
+        <section class="section data">
+            <div class="container1">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title text-center">
+                            <div class="container">
+                                <div class="card-table">
+                                    <div class="cart-product">
+                                        <table class="table table-responsive">
+                                            <thead>
+                                                <tr>
+                                                    <th>No</th>
+                                                    <th>Firstname</th>
+                                                    <th>Lastname</th>
+                                                    <th>Apartment, suite, unit</th>
+                                                    <th>Town / City</th>
+                                                    <th>District</th>
+                                                    <th>Postcode / ZIP</th>
+                                                    <th>Phone No</th>
+                                                    <th>Email address</th>
+                                                    <th>Product purchase</th>
+                                                    <th>Total price</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr *ngFor="let item of payData; let i=index">
+                                                    <td>{{i+1}}</td>
+                                                    <th style="width: 25%">{{item.firstname}}</th>
+                                                    <td style="width: 15%;">{{item.lastname}}</td>
+                                                    <td style="width: 100%;">{{item.apartment}}</td>
+                                                    <td style="width: 25%">{{item.town}}</td>
+                                                    <th style="width: 25%">{{item.district}}</th>
+                                                    <td style="width: 15%;">{{item.postcode}}</td>
+                                                    <td style="width: 100%;">{{item.phone}}</td>
+                                                    <td style="width: 25%">{{item.email}}</td>
+                                                    <td style="width: 100%;">{{item.product}}</td>
+                                                    <td style="width: 25%">{{item.total}}</td>
+                                                    <td><Span style="color:red ;" (click)="deleteProduct(item.id)">Delete</Span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
